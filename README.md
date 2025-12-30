@@ -1,13 +1,37 @@
-<h1 style="text-align: center"> This is Currency converter </h1>
-With this program, the user will be able to view the current exchange rate and calculate what certain currencies are equal to.<br>
-The project uses libraries such as PyQT and requests, and the current exchange rates are calculated using a third-party API
-<p style="text-align: center">The following currencies are available to choose from:</p>
-<p style="text-align: center"><b>Polish zloty,</b></p>
-<p style="text-align: center"><b>Russian ruble,</b></p>
-<p style="text-align: center"><b>Belarusian ruble,</b></p>
-<p style="text-align: center"><b>US dollar,</b></p>
-<p style="text-align: center"><b>Euro.</b></p>
-<p style="text-align: center"><b>Canadian dollar.</b></p>
-<p style="text-align: center"><b>Ukrainian hryvnia.</b></p>
-<p style="text-align: center"><b>Kazakhstani tenge.</b></p>
-<p style="text-align: center">There are also two versions of the program to choose from <b>Russian</b> and <b>English</b>.</p>
+# 🪨✂️📄 Paper, Scissors, Stone (Tkinter)
+
+A simple **Rock–Paper–Scissors** game with a graphical interface, written in **Python** using the **Tkinter** library.
+
+The player selects an option, the computer makes a random choice, and the winner is determined. The player’s score is counted during the game.
+
+---
+
+## 🚀 Features
+- Graphical user interface (Tkinter)
+- Random computer choice
+- Player score counter
+- "Play again" button
+- Image-based choices
+
+---
+
+## 🧠 Game Rules
+- 🪨 **Stone** beats ✂️ **Scissors**
+- ✂️ **Scissors** beats 📄 **Paper**
+- 📄 **Paper** beats 🪨 **Stone**
+- Same choice — **DRAW**
+
+---
+
+⚠️ **Important:**  
+The image files `paper.png`, `scissors.png`, and `stone.png` must be located in the same directory as the Python file.
+
+---
+
+## ▶️ How to Run
+1. Make sure you have **Python 3.8+** installed
+2. Tkinter is included with most Python installations
+3. Run the program:
+
+```bash
+python rock_paper_scissors.py
